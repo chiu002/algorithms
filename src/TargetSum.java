@@ -1,5 +1,9 @@
-//brute force
-//time complexity: n^2
+/*
+brute force
+time complexity: n^2
+*/
+
+
 public static List<int[]> targetSum(int[] array, int target){
     if(array.length <1)
       return null;
